@@ -100,7 +100,7 @@ if (itemsGal.length > 0) {
   div.classList.add('testimonials-block__star')
 
   let img = document.createElement('img')
-  img.setAttribute('src', '/img/testimonials/star.svg')
+  img.setAttribute('src', 'img/testimonials/star.svg')
 
   div.insertAdjacentElement('beforeend', img)
 
