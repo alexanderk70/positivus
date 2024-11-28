@@ -155,12 +155,12 @@ function bullSvgChang() {
     if (starsGal[i].classList.contains('active')) {
       starsGal[i].firstElementChild.setAttribute(
         'src',
-        '/img/testimonials/starG.svg'
+        'img/testimonials/starG.svg'
       )
     } else {
       starsGal[i].firstElementChild.setAttribute(
         'src',
-        '/img/testimonials/star.svg'
+        'img/testimonials/star.svg'
       )
     }
   }
