@@ -1145,6 +1145,7 @@ li .btn {
           align-items: center;
 }
 .item .pluse {
+  cursor: pointer;
   height: 58px;
   width: 58px;
   border-radius: 100%;
@@ -1489,6 +1490,7 @@ li .btn {
   }
 }
 .testimonials-block__array-l {
+   cursor: pointer;
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -1500,6 +1502,7 @@ li .btn {
 }
 .testimonials-block__star {
   margin: 0 10px;
+  cursor: pointer;
 }
 .itemm {
   -webkit-box-flex: 0;
