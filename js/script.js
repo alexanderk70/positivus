@@ -251,9 +251,7 @@ function centrumItem() {
 
       if (Math.abs(step) < 1) {
         let znak = step / Math.abs(step)
-
         step = 1 * znak
-        
       }
 
       console.log(centrXwindow + ' - центр экрана')
