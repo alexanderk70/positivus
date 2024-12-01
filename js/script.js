@@ -1,3 +1,4 @@
+alert(document.documentElement.clientWidth)
 // ----------------меню бургер-------------------------------------------------
 let bur = document.querySelector('.header__burger')
 let men = document.querySelector('.header__menu')
