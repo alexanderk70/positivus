@@ -1465,9 +1465,6 @@ li .btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  cursor: e-resize;
-  cursor: -webkit-grab;
-  cursor: grab;
   overflow: hidden;
   -ms-touch-action: none;
       touch-action: none;
