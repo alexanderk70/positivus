@@ -50,10 +50,7 @@ alert(pls[i].parentElement.offsetHeight)
     alert('дом готов' + pls[i].parentElement.offsetHeight)
 console.log(pls[i].parentElement)
   }
-  window.addEventListener('load', r)
-  function r() {
-    alert('load' + pls[i].parentElement.offsetHeight)
-  }
+
 
 }
 
