@@ -314,6 +314,7 @@ function centrumItem() {
 // --------/поиск элемента с классом activ и центруем его в галерее------
 
 function whichBorder() {
+   fullScroll = scroll.scrollWidth - scroll.offsetWidth
   //функция определения края галереии
   if (scroll.scrollLeft == 0 || scroll.scrollLeft == fullScroll) {
     return true
