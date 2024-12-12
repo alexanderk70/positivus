@@ -315,7 +315,7 @@ function centrumItem() {
 
 function whichBorder() {
   //функция определения края галереии
-  if (scroll.scrollLeft == 0 || scroll.scrollLeft == fullScroll) {
+  if (scroll.scrollLeft == 0 || scroll.scrollLeft == (scroll.scrollWidth - scroll.offsetWidth)) {
     return true
   }
 }
