@@ -40,6 +40,7 @@ for (let i = 0; i < pls.length; i++) {
       item.style.height = titleElement.offsetHeight + 'px'
     }
   })
+   alert(pls[i].parentElement.offsetHeight)
   pls[i].parentElement.parentElement.style.height =
     pls[i].parentElement.offsetHeight + 'px'
 }
