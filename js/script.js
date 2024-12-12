@@ -41,9 +41,9 @@ for (let i = 0; i < pls.length; i++) {
     }
   })
   alert(pls[i].parentElement.offsetHeight)
-  window.addEventListener('load', ready)
+  document.addEventListener('DOMContentLoaded', ready)
   function ready() {
-    alert(pls[i].parentElement.offsetHeight)
+    alert('дом готов' + pls[i].parentElement.offsetHeight)
     pls[i].parentElement.parentElement.style.height =
       pls[i].parentElement.offsetHeight + 'px'
   }
