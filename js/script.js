@@ -47,6 +47,11 @@ for (let i = 0; i < pls.length; i++) {
     pls[i].parentElement.parentElement.style.height =
       pls[i].parentElement.offsetHeight + 'px'
   }
+    window.addEventListener('load', r)
+  function r() {
+    alert('load'+ pls[i].parentElement.offsetHeight)
+   
+  }
 }
 
 // ----------------/слайдер-------------------------------------------------
