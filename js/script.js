@@ -116,10 +116,16 @@ if (itemsGal.length > 0) {
 
 let starsGal = document.querySelectorAll('.testimonials-block__star') // коллекция буллитов
 
+      window.addEventListener('load', setSc)
+  function setSc() {
+    alert(7)
 scroll.offsetWidth // ширина контейнера
 scroll.scrollWidth // ширина скрола
 scroll.scrollLeft // проскроленная длина (можно изменять)
-let fullScroll = scroll.scrollWidth - scroll.offsetWidth
+
+  let fullScroll = scroll.scrollWidth - scroll.offsetWidth
+  }
+
 
 // ------------основные функции буллитов-------------------------------
 serchActiveItem()
