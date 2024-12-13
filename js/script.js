@@ -41,8 +41,11 @@ for (let i = 0; i < pls.length; i++) {
     }
   })
 
+      document.addEventListener('DOMContentLoaded', setHeight)
+  function setHeight() {
     pls[i].parentElement.parentElement.style.height =
       pls[i].parentElement.offsetHeight + 'px'
+  }
 
 
 }
