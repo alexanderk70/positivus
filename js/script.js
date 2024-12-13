@@ -41,7 +41,7 @@ for (let i = 0; i < pls.length; i++) {
     }
   })
 
-      document.addEventListener('DOMContentLoaded', setHeight)
+      window.addEventListener('load', setHeight)
   function setHeight() {
     alert(1)
     pls[i].parentElement.parentElement.style.height =
