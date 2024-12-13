@@ -43,7 +43,6 @@ for (let i = 0; i < pls.length; i++) {
 
       window.addEventListener('load', setHeight)
   function setHeight() {
-    alert('load')
     pls[i].parentElement.parentElement.style.height =
       pls[i].parentElement.offsetHeight + 'px'
   }
